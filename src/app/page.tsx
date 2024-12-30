@@ -35,14 +35,14 @@ export default function HomePage() {
           <div className="flex items-center space-x-6">
             <Image
               src="/images/feline-01.jpg"
-              alt="Cats' Diet"
+              alt="Cats Diet"
               width={200}
               height={200}
               className="w-32 h-32 rounded-full object-cover border-4 border-teal-300 transition-transform duration-300 ease-in-out hover:scale-110"
             />
             <div>
               <Link href="/blog/cats-diet" className="text-2xl font-semibold text-teal-600 hover:text-teal-800 transition-all duration-300 ease-in-out">
-                Cats' Diet
+                Cats Diet
               </Link>
               <p className="mt-2 text-lg text-gray-700 transition-opacity duration-300 hover:opacity-70">
                 Understand what to feed your cat for a healthy diet.
@@ -63,7 +63,7 @@ export default function HomePage() {
             />
             <div>
               <Link href="/blog/cats-health" className="text-2xl font-semibold text-teal-600 hover:text-teal-800 transition-all duration-300 ease-in-out">
-                Cats' Health
+                Cats Health
               </Link>
               <p className="mt-2 text-lg text-gray-700 transition-opacity duration-300 hover:opacity-70">
                 Learn how to keep your cat healthy and avoid common issues.
