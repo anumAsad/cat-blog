@@ -18,7 +18,7 @@ const BlogPost = () => {
     );
   }
 
-  // Comments state
+  // Comments state (hooks are called unconditionally)
   const [comments, setComments] = useState<string[]>([]);
   const [newComment, setNewComment] = useState<string>("");
 
